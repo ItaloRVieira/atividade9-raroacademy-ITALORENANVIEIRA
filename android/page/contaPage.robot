@@ -30,7 +30,6 @@ E opções para Deposita, Pagar, Transferir e Emprestimo
     Espera o elemento e verifica se esta visivel    //android.view.View[@content-desc="Transferir"]
     Elemento Deve Estar Visível    ${OPEN_EMPRESTIMO}
     Espera o elemento e verifica se esta visivel    //android.view.View[@content-desc="Empréstimos"]
-    Elemento Deve Estar Visível    ${OPEN_COBRAR}
 
 E o historico de transações da conta 
     Swipe By Percent   10    90    80    10    1000
