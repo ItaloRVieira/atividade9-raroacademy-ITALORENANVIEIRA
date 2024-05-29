@@ -12,17 +12,18 @@ Test Teardown    Teardown
 CT001 - Abrir página para visualizar informações do saldo da conta
     Dado que o usuario selecione a area de conta
     Então deve ser possivel visualizar o Saldo disponivel, Dinheiro guardado e rendimento total
-    E opções para Deposita, Pagar, Transferir, Emprestimo e Cobra 
+    E opções para Deposita, Pagar, Transferir e Emprestimo 
     E o historico de transações da conta 
 
 CT002 - Selecionar opção de deposito dentro da area de conta
     Dado que o usuario está na area de conta
     Quando selecionar o botão de deposito
-    Então deve ser exibido as opcoes de pagar com Pix, pagar fatura do cartão, pagar um boleto
+    Então deve ser exibido a area de deposito 
+    E seleção de Pix, Boleto, TED/DOC, Trazer seu salário
 
 CT003 - Selecionar opção de trasferir dentro da area de conta
     Dado que o usuario está na area de conta
-    Quando selecionar o botão de Pagar
+    Quando selecionar o botão de transferir
     Então deve ser exibido as informacoes da area de transferencia 
     E deve ser exibido o botão de ler QR Code, o saldo disponivel e o input para informar um novo valor
 
